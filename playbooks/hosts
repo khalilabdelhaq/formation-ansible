@@ -1,0 +1,4 @@
+[web]
+slave1 ansible_connection=ssh ansible_host=127.0.0.1 ansible_port=2222 ansible_user=vagrant
+[db]
+slave2 ansible_connection=ssh ansible_host=127.0.0.1 ansible_port=2200 ansible_user=vagrant
